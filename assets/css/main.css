@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -2118,8 +2119,8 @@ input, select, textarea {
 		width: 100%;
 		text-align: center;
 	}
-
-		#nav > ul {
+	
+	#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgb(255, 255, 255);
@@ -2155,7 +2156,9 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: #ffc60bd2;
+					font-size: 12px;
+					font-weight: bold;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
